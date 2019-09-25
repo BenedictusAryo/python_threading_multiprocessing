@@ -1,13 +1,14 @@
 # 1 Simple Syncronus Python
 
-import time
 
+# Import Time and start counter
+import time
 start = time.perf_counter()
 
 
 # Create simple function that sleep in 1 second
 def do_something():
-    print('Sleeping in 1 second ..')
+    print('Sleeping 1 second ..')
     time.sleep(1)
     print('Done Sleeping')
 
@@ -16,6 +17,7 @@ def do_something():
 do_something()
 do_something()
 
-finish = time.perf_counter()
 
+# Finish counting and show script runtime
+finish = time.perf_counter()
 print(f"Finished in {round(finish-start,2)} second(s)")

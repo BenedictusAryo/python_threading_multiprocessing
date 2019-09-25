@@ -1,4 +1,4 @@
-# 2 Using threading in python
+# 2 Using Manual threading in python
 
 # Import Threading & Time
 import threading

@@ -1,4 +1,4 @@
-# Study Case Downloading multiple images syncronus
+# Study Case Downloading multiple images asyncronus
 
 import requests
 import time

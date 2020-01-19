@@ -1,4 +1,4 @@
-# 3 Combine Multiprocessing with Loop
+# 4 Combine Multiprocessing with Loop
 import time
 import multiprocessing
 
@@ -6,7 +6,7 @@ import multiprocessing
 def do_something(seconds):
     print(f'Sleeping {seconds} second(s) ..')
     time.sleep(seconds)
-    print('Done Sleeping')
+    print('Done Sleeping..')
 
 if __name__ == '__main__':
     # Start counting

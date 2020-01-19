@@ -1,6 +1,5 @@
 # 1 Simple Syncronus Python
 
-
 # Import Time and start counter
 import time
 start = time.perf_counter()
@@ -20,4 +19,4 @@ do_something()
 
 # Finish counting and show script runtime
 finish = time.perf_counter()
-print(f"Finished in {round(finish-start,2)} second(s)")
+print(f"Finished in {round(finish-start, 2)} second(s)")
